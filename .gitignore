@@ -14,8 +14,9 @@ dist-ssr
 credentials.js
 firebase.json
 firestore.rules
-package-lock
-package
+package-lock.json
+package.json
+vite.config.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
