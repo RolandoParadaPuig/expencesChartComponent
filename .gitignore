@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 credentials.js
+.firebaserc
 firebase.json
 firestore.rules
 package-lock.json
