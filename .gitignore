@@ -11,9 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-credentials
-firebase
-firestore
+credentials.js
+firebase.json
+firestore.rules
 package-lock
 package
 # Editor directories and files
