@@ -12,10 +12,10 @@ dist
 dist-ssr
 *.local
 credentials.js
-firebase.json
-firestore.rules
-package-lock.json
-package.json
+firebase
+firestore
+package-lock
+package
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
