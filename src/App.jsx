@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./css/App.css";
 import { ChartContainer } from "./components/chartContainer/ChartContainer";
 
 function App() {
