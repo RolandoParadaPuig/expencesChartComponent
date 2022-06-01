@@ -10,9 +10,11 @@ export const Bars = (props) => {
   }
   const onClick = (e) => {
     const element = e.target.classList;
+    element.toggle("active");
+    element.toggle("no-active");
     const amountElem = document.getElementById(`bar-${e.target.id}`);
     amountElem.classList.toggle("active-amount");
-    element.toggle("active");
+    console.log(element);
   };
   return data.map((e) => {
     const index = data.indexOf(e);
@@ -23,7 +25,7 @@ export const Bars = (props) => {
         </div>
         <div
           id={`${index}`}
-          className={`bar ${
+          className={`bar no-active ${
             data[index].amount == maxValue ? "bar--blue" : "bar--red"
           }`}
           style={{ height: `${data[index].amount / divisor}rem` }}
