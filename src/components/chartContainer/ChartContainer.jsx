@@ -5,10 +5,10 @@ import "./chartContainer.css";
 
 export const ChartContainer = () => {
   return (
-    <aside className={"container"}>
+    <main className={"container"}>
       <section className={"chart--container"}>
         <ChartComponent />
       </section>
-    </aside>
+    </main>
   );
 };

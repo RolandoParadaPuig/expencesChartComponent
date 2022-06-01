@@ -4,13 +4,13 @@ import "./chartBody.css";
 import { ChartFooter } from "./ChartFooter";
 export const ChartBody = () => {
   return (
-    <main className={"chart--body"}>
+    <div className={"chart--body"}>
       <div>
         <h1 className="chart--body--title">Spending - Last 7 days</h1>
       </div>
       <div className={"chart--body--content"}></div>
       <ChartBar />
       <ChartFooter />
-    </main>
+    </div>
   );
 };
