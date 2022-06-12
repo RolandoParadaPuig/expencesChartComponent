@@ -9,4 +9,4 @@ imagen de fondo gracias a:
 <!-- <a href='https://www.freepik.es/vectores/formas-diseno'>Vector de formas de diseno creado por freepik - www.freepik.es</a> -->
 
 web deployed on:
-https://rolando-portfolio.web.app/
+https://rolando-portfolio.web.app/expences-chart
