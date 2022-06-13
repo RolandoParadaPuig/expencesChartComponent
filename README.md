@@ -62,7 +62,6 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [ant Design](https://ant.design/) - React UI library
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
