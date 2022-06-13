@@ -10,7 +10,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path={"/*"} element={<ChartContainer />} />
+          <Route path={"/expences-chart"} element={<ChartContainer />} />
         </Routes>
       </Router>
     </>
